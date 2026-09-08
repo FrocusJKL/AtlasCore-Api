@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="AtlasCore-Api/AtlasCore-Api.csproj" />
+  <Project Path="AtlasCore-Application/AtlasCore-Application.csproj" Id="64f8be60-4ea7-47e1-a60d-432e6f5730c8" />
+  <Project Path="AtlasCore-Domain/AtlasCore-Domain.csproj" Id="6e6c3e8b-88f2-46ca-891a-74c4195fa0c0" />
+  <Project Path="AtlasCore-Infrastructure/AtlasCore-Infrastructure.csproj" Id="de8fa94c-24ad-4dc3-8c05-7b6a18e4f965" />
 </Solution>
