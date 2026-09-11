@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Common\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
 </Project>

@@ -11,4 +11,17 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AtlasCore-Application\AtlasCore-Application.csproj" />
+    <ProjectReference Include="..\AtlasCore-Infrastructure\AtlasCore-Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

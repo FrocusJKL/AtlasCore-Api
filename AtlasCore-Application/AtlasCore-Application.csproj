@@ -7,4 +7,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AtlasCore-Domain\AtlasCore-Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Features\" />
+    <Folder Include="Common\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 </Project>
