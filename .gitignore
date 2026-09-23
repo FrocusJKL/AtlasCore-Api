@@ -1,23 +1,72 @@
+# ASP.NET Core (AtlasCore API)
+# Tip: `dotnet new gitignore` genera la plantilla oficial completa.
+
 # Build
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
+publish/
+*.pubxml
+*.nupkg
+*.snupkg
 
 # Visual Studio
 .vs/
 *.user
 *.suo
+*.userprefs
+*.rsuser
+*.DotSettings.user
+_ReSharper*/
 
 # Rider / VS Code
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Secretos y configuración local
+# appsettings.json y appsettings.Development.json SÍ se suben (sin secretos).
+# Los secretos van en User Secrets (dotnet user-secrets) o variables de entorno.
+appsettings.*.local.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.pem
+*.key
+*.snk
+
+# Bases de datos locales y backups
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.dbmdl
+
+# Tests y cobertura
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
 
 # Logs
-logs/
+[Ll]ogs/
 *.log
 
-# Local settings
-appsettings.Development.json
+# Archivos subidos por usuarios en desarrollo (descomenta si aplica)
+# wwwroot/uploads/
 
 # OS
 .DS_Store
+._*
 Thumbs.db
+Desktop.ini
